@@ -26,7 +26,15 @@ public class gdBeamerDisplay {
   
      
 
-    public void gdBeamerDisplay() {
+    public gdBeamerDisplay() {
+    super();
+    checkDisplay();
+    
+    }
+    
+    
+    public void checkDisplay() {
+       
 //        System.err.println("IOn gdsiaplsy");
 //        \Users\G Doets\Pictures\oudeMotorToertocht2012\DSC_6615_2012-05-12_11-13-38.jpg
         GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
